@@ -3,31 +3,30 @@ import { MemoryImage, FriendMessage } from './types';
 // --- Memories Data ---
 
 export const MEMORIES_ROW_1: MemoryImage[] = [
-  { id: '1-1', url: '/images/qr-code(3).png', caption: 'Summer Vibes' },
-  { id: '1-2', url: 'https://picsum.photos/400/600?random=2', caption: 'Coffee Dates' },
-  { id: '1-3', url: 'https://picsum.photos/400/600?random=3', caption: 'Adventures' },
-  { id: '1-4', url: 'https://picsum.photos/400/600?random=4', caption: 'Smiles' },
-  { id: '1-5', url: 'https://picsum.photos/400/600?random=5', caption: 'Party Time' },
-  { id: '1-6', url: 'https://picsum.photos/400/600?random=6', caption: 'Candid' },
-  { id: '1-7', url: 'https://picsum.photos/400/600?random=6', caption: 'Plandid' }
+  { id: '1-1', url: '/images/IMG-20260102-WA0058.jpg', caption: 'non chalant asf' },
+  { id: '1-2', url: '/images/IMG-20260102-WA0059-changed.jpg', caption: 'pika pika' },
+  { id: '1-3', url: '/images/IMG-20260102-WA0061.jpg', caption: 'post ISA ts' },
+  { id: '1-4', url: '/images/IMG-20260102-WA0062.jpg', caption: 'Party Time' },
+  { id: '1-5', url: '/images/IMG-20260102-WA0063.jpg', caption: 'What is love' },
+  { id: '1-6', url: '/images/IMG-20260102-WA0067.jpg', caption: 'Baby dont hurt me, dont hurt me no more' }
 ];
 
 export const MEMORIES_ROW_2: MemoryImage[] = [
-  { id: '2-1', url: 'https://picsum.photos/400/600?random=7', caption: 'Sunsets' },
-  { id: '2-2', url: 'https://picsum.photos/400/600?random=8', caption: 'Graduation' },
-  { id: '2-3', url: 'https://picsum.photos/400/600?random=9', caption: 'Travels' },
-  { id: '2-4', url: 'https://picsum.photos/400/600?random=10', caption: 'Besties' },
-  { id: '2-5', url: 'https://picsum.photos/400/600?random=11', caption: 'Quiet Moments' },
-  { id: '2-6', url: 'https://picsum.photos/400/600?random=12', caption: 'Celebration' },
+  { id: '2-1', url: '/images/IMG-20260102-WA0064.jpg', caption: 'Baby Shreya' },
+  { id: '2-2', url: '/images/IMG-20260102-WA0065.jpg', caption: '{insert cap}' },
+  { id: '2-3', url: '/images/IMG-20260102-WA0069.jpg', caption: 'Shraddha again' },
+  { id: '2-4', url: '/images/IMG-20260102-WA0071.jpg', caption: 'Deputy' },
+  { id: '2-5', url: '/images/IMG-20260102-WA0073.jpg', caption: 'Shreyboy Carti' },
+  { id: '2-6', url: '/images/IMG-20260103-WA0002.jpg', caption: 'Assasination attempt' },
 ];
 
 export const MEMORIES_ROW_3: MemoryImage[] = [
-  { id: '3-1', url: 'https://picsum.photos/400/600?random=13', caption: 'Childhood' },
-  { id: '3-2', url: 'https://picsum.photos/400/600?random=14', caption: 'Family Love' },
-  { id: '3-3', url: 'https://picsum.photos/400/600?random=15', caption: 'First Steps' },
-  { id: '3-4', url: 'https://picsum.photos/400/600?random=16', caption: 'School Days' },
-  { id: '3-5', url: 'https://picsum.photos/400/600?random=17', caption: 'Playtime' },
-  { id: '3-6', url: 'https://picsum.photos/400/600?random=18', caption: 'Growing Up' },
+  { id: '3-1', url: '/images/Timeline 1_01_00_03_13.jpg', caption: 'lil bro' },
+  { id: '3-2', url: '/images/IMG-20260102-WA0072.jpg', caption: 'Deputy again' },
+  { id: '3-3', url: '/images/IMG-20260103-WA0003.jpg', caption: 'what is broski lookin at' },
+  { id: '3-4', url: '/images/IMG20251117090548.jpg', caption: 'Car' },
+  { id: '3-5', url: '/images/IMG20251008103702.jpg', caption: 'Assasination Attempt pt.2' },
+  { id: '3-6', url: '/images/PXL_20250404_161254544.jpg', caption: 'Doggo Crowd' },
 ];
 
 export const MEMORIES_ROW_4: MemoryImage[] = [
@@ -52,14 +51,14 @@ export const MEMORIES_ROW_5: MemoryImage[] = [
 
 export const MESSAGES_ROW_1: FriendMessage[] = [
   { id: 'm1-1', name: 'Adam Shubh-asher', message: 'Happy Birthday! Wishing you a year filled with love and laughter. You deserve the world!' },
-  { id: 'm1-2', name: 'Arun', message: 'To the craziest friend I have, happy birthday! Let’s make this year epic.' },
-  { id: 'm1-3', name: 'Samarth', message: 'So grateful for your friendship. Have the most amazing day, Shreya!' },
+  { id: 'm1-2', name: 'Arun', message: "It's a privilege to have spent the past year as your friend, and I can't thank you enough for everything you've done. Enjoy your day and here's to 19, to concerts and so much more. Cheers gng!!!" },
+  { id: 'm1-3', name: 'Samarth Undercurrents Big Man Tings Ya', message: 'So grateful for your friendship. Have the most amazing day, Shreya!' },
 ];
 
 export const MESSAGES_ROW_2: FriendMessage[] = [
   { id: 'm2-1', name: 'Adi', message: 'Keep shining bright like the star you are. Happy Birthday bestie!' },
   { id: 'm2-2', name: 'Abhyudaya', message: 'Another year older, another year wiser. Have a blast!' },
-  { id: 'm2-3', name: 'Shashank', message: 'Cheers to more adventures and unforgettable memories together.' },
+  { id: 'm2-3', name: 'Shashank', message: 'For me, simpI love doing tech related stuff, whether it be making CTFs or working with AI models. Troubleshooting however is my jam, maybe it is something inherent but I just love coming across obscure problems and learning how to solve them(if only I did that for the ISAs). I do have the issue of overcommitting into solving stuff, realizing am practically a nocturnal being due to sleep schedule, and often spend my nights reminiscing on what could have been, or just trying to meet insane deadlines I set for myself. I have no idea how it works, and learning about it to finally fix it(all in one night)  le pleasures in life include my code working on the first try and a pillow that is cold on both sides. I watch a lot of sports, mainly football, F1 and MotoGP. I have been a Bayern Munich fan for as long as I can remember.' },
 ];
 
 export const MESSAGES_ROW_3: FriendMessage[] = [

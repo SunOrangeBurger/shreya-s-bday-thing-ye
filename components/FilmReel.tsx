@@ -27,7 +27,7 @@ const FilmReel: React.FC<FilmReelProps> = ({ images, direction = 'left', speed =
           {reelImages.map((img, index) => (
             <div 
               key={`${img.id}-${index}`} 
-              className="relative w-[280px] h-[380px] bg-black p-4 flex-shrink-0 border-x-4 border-[#2A2A2A] shadow-inner"
+              className="relative w-[580px] h-[450px] bg-black p-4 flex-shrink-0 border-x-4 border-[#2A2A2A] shadow-inner"
             >
               <div className="w-full h-full overflow-hidden rounded-sm relative group">
                 <img 

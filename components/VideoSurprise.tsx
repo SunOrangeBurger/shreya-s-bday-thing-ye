@@ -5,7 +5,7 @@ import { SURPRISE_VIDEO_URL } from '../constants';
 const VideoSurprise: React.FC = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
-  const [isPlaying, setIsPlaying] = useState(false);
+  const [isPlaying, setIsPlaying] = useState(true);
   const [isMuted, setIsMuted] = useState(false);
 
   useEffect(() => {

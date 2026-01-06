@@ -81,18 +81,18 @@ const App: React.FC = () => {
       <section className="py-12 relative z-10 bg-[#1A1A1A] text-white">
         <div className="absolute top-[-20px] left-0 w-full h-6 bg-gradient-to-b from-[#FDF2F8] to-[#1A1A1A]"></div>
         <div className="max-w-7xl mx-auto px-6 mb-8 text-center">
-           <h3 className="font-['Playfair_Display'] text-[#D4AF37] text-2xl italic">The Golden Days</h3>
+           <h3 className="font-['Playfair_Display'] text-[#D4AF37] text-2xl italic">idk what to put here im workshopping how do we segment this</h3>
         </div>
         <FilmReel images={MEMORIES_ROW_1} direction="left" speed="slow" />
       </section>
       
-      <MessageRow messages={MESSAGES_ROW_1} title="Wishes from the Heart" />
+      <MessageRow messages={MESSAGES_ROW_1} title="Sendable text messages" />
 
 
       {/* --- CHAPTER 2 --- */}
       <section className="py-12 relative z-10 bg-[#7F1D1D] text-white mt-12">
         <div className="max-w-7xl mx-auto px-6 mb-8 text-center">
-           <h3 className="font-['Playfair_Display'] text-[#FDF2F8] text-2xl italic">Unforgettable Adventures</h3>
+           <h3 className="font-['Playfair_Display'] text-[#FDF2F8] text-2xl italic">Unforgettable Adventures but forgettable caption i wanted an inside joke here</h3>
         </div>
         <FilmReel images={MEMORIES_ROW_2} direction="right" speed="normal" />
       </section>
