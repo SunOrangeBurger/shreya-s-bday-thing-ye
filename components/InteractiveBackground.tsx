@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import React, { useEffect} from 'react';
 import { motion, useSpring, useMotionValue } from 'framer-motion';
 import { Heart, Star, Sparkles, Gift } from 'lucide-react';
 
