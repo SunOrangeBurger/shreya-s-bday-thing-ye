@@ -8,7 +8,8 @@ export const MEMORIES_ROW_1: MemoryImage[] = [
   { id: '1-3', url: '/images/IMG-20260102-WA0061.jpg', caption: 'post ISA ts' },
   { id: '1-4', url: '/images/IMG-20260102-WA0062.jpg', caption: 'Party Time' },
   { id: '1-5', url: '/images/IMG-20260102-WA0063.jpg', caption: 'What is love' },
-  { id: '1-6', url: '/images/IMG-20260102-WA0067.jpg', caption: 'Baby dont hurt me, dont hurt me no more' }
+  { id: '1-6', url: '/images/IMG-20260102-WA0067.jpg', caption: 'Baby dont hurt me, dont hurt me no more' },
+  { id: '1-7', url: '/images/WhatsApp Image 2026-01-10 at 23.56.25.jpeg', caption: 'mirror mirron on the wall, whos the fairest of em all' },
 ];
 
 export const MEMORIES_ROW_2: MemoryImage[] = [
@@ -18,6 +19,7 @@ export const MEMORIES_ROW_2: MemoryImage[] = [
   { id: '2-4', url: '/images/IMG-20260102-WA0071.jpg', caption: 'Deputy' },
   { id: '2-5', url: '/images/IMG-20260102-WA0073.jpg', caption: 'Shreyboy Carti' },
   { id: '2-6', url: '/images/IMG-20260103-WA0002.jpg', caption: 'Assasination attempt' },
+  { id: '2-7', url: '/images/WhatsApp Image 2026-01-10 at 23.56.24.jpeg', caption: 'best sk one imo' },
 ];
 
 export const MEMORIES_ROW_3: MemoryImage[] = [
@@ -37,6 +39,7 @@ export const MEMORIES_ROW_4: MemoryImage[] = [
   { id: '4-5', url: '/images/0d264ef6-c0ad-40c6-8304-15dcdf0ee879.jpg', caption: 'ethnic day' },
   { id: '4-6', url: '/images/3c8308a6-6024-46a6-8d8b-d0dcd4ce1b76.jpg', caption: 'its that one day i think i was there' },
   { id: '4-7', url: '/images/20250520_174046.jpg', caption: 'holy shi its a relic sbka still has blue hair' },
+  { id: '4-8', url: '/images/WhatsApp Image 2026-01-10 at 23.55.40.jpeg', caption: 'sk told me to add' },
 ];
 
 // --- Messages Data ---
