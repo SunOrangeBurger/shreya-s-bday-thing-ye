@@ -12,7 +12,7 @@ import LocalVideoSurprise from './components/localvideo';
 
 import { 
   MEMORIES_ROW_1, MEMORIES_ROW_2, MEMORIES_ROW_3, MEMORIES_ROW_4,
-  MESSAGES_ROW_1, MESSAGES_ROW_2, MESSAGES_ROW_3
+  MESSAGES_ROW_1, MESSAGES_ROW_2, MESSAGES_ROW_3, MESSAGES_ROW_4,
 } from './constants';
 
 const App: React.FC = () => {
@@ -74,7 +74,7 @@ const App: React.FC = () => {
               I thought this would be cool lol
             </h2>
             <p className="text-lg text-[#064E3B] leading-relaxed mb-8">
-              To the absolute peak of ~non~ chalance.
+              Hover ovee the images pls.
             </p>
           </motion.div>
         </div>
@@ -123,7 +123,7 @@ const App: React.FC = () => {
       </section>
 
 
-
+      <MessageRow messages={MESSAGES_ROW_4} title="parting words ig" />
 
 
       {/* Final Surprise Section */}

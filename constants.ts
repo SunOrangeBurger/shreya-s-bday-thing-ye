@@ -58,6 +58,12 @@ export const MESSAGES_ROW_3: FriendMessage[] = [
   { id: 'm3-3', name: 'Ruhika', message: "hi shreyaa! happiest birthday idiot! i still remember the first time we actually bonded was for the fact that we both had louis tomlinson hoodies and we both loved one direction. I am so glad that we both did love them so much because it made us get along so well , we got to see freaking louis together, go to Mumbai have fun and do all crazy shit together. God only knows how I would have survived college without you. I love all the shit we do , all our gmeets trying our best to study and not talk ahaha, shopping and everything.I literally love doing everything with you. I am so glad to have found you in college. And don't stress out this sem will go fine and all will be perfect for now just focus on your birthday, it's your special day, have fun todayy and enjoy it soooo muchhhh and forget about the rest. I love you soo much!"},
 ];
 
+export const MESSAGES_ROW_4: FriendMessage[] = [
+  { id: 'm4-1', name: 'Saksham', message: "Happy birthday Shreya! Have a great year ahead. May you get all that you wish for 💞🎉 To many more good times ahead 🍻" },
+  { id: 'm4-2', name: 'SK', message: "MANY MORE HAPPY RETURNS OF THE DAY BBGG😭🎉 finally u in tha last TEEN-year 19!!!lesss gooo🥳🥳 I’m so goddamn grateful to have a person like you in my life 🫶🏻 u mah homeyyy! U bring the smile and happiness in the group and it’s you who makes everything bright✨ stay blessed and be happy as always! I’m gonna be making fun of u forver 😛💞 (virtual hugs 🫂) lubbb uuu🥰🥰 PARTY DEDO MADAM JI🍾👯‍♀️" },
+  { id: 'm4-3', name: 'Arun(again)', message: "Here is even more to the most nonchalant person I've ever met.(me when i lie you are defo the most chalant and thats what we love about you, pls keep being chalant and keep being youself as unpologetically as possible)" },
+];
+
 
 export const COLORS = {
   softPink: '#FDF2F8',   // bg-pink-50

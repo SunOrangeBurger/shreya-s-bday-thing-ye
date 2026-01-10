@@ -16,7 +16,8 @@ const MessageRow: React.FC<MessageRowProps> = ({ messages, title }) => {
           </div>
         )}
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8 justify-items-center">
+
           {messages.map((msg, index) => (
             <motion.div
               key={msg.id}

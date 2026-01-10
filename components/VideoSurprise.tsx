@@ -31,7 +31,7 @@ const VideoSurprise: React.FC = () => {
       {shouldLoad ? (
         <iframe
           className="w-full h-full"
-          src={`https://www.youtube.com/embed/5wd8LgbjPPY?autoplay=0&mute=0&controls=1&rel=0&modestbranding=1`}
+          src={`https://www.youtube.com/embed/5wd8LgbjPPY?autoplay=0&mute=1&controls=1&rel=0&modestbranding=1`}
           title="Birthday Surprise Video"
           frameBorder="0"
           allow="autoplay; encrypted-media; picture-in-picture"
