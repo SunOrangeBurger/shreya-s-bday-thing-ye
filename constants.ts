@@ -30,12 +30,13 @@ export const MEMORIES_ROW_3: MemoryImage[] = [
 ];
 
 export const MEMORIES_ROW_4: MemoryImage[] = [
-  { id: '4-1', url: 'https://picsum.photos/400/600?random=19', caption: 'College Life' },
-  { id: '4-2', url: 'https://picsum.photos/400/600?random=20', caption: 'Late Nights' },
-  { id: '4-3', url: 'https://picsum.photos/400/600?random=21', caption: 'Study Sesh' },
-  { id: '4-4', url: 'https://picsum.photos/400/600?random=22', caption: 'Campus' },
-  { id: '4-5', url: 'https://picsum.photos/400/600?random=23', caption: 'Goals' },
-  { id: '4-6', url: 'https://picsum.photos/400/600?random=24', caption: 'Success' },
+  { id: '4-1', url: '/images/IMG_8128.jpg', caption: 'Bro forgot to stop using the Ultra Wide lens' },
+  { id: '4-2', url: '/images/IMG_6925.jpg', caption: 'that looks so cool ong you' },
+  { id: '4-3', url: '/images/IMG_8127.jpg', caption: 'i be smilin' },
+  { id: '4-4', url: '/images/IMG_8209.jpg', caption: 'aura farming' },
+  { id: '4-5', url: '/images/0d264ef6-c0ad-40c6-8304-15dcdf0ee879.jpg', caption: 'ethnic day' },
+  { id: '4-6', url: '/images/3c8308a6-6024-46a6-8d8b-d0dcd4ce1b76.jpg', caption: 'its that one day i think i was there' },
+  { id: '4-7', url: '/images/20250520_174046.jpg', caption: 'holy shi its a relic sbka still has blue hair' },
 ];
 
 export const MEMORIES_ROW_5: MemoryImage[] = [
@@ -50,33 +51,20 @@ export const MEMORIES_ROW_5: MemoryImage[] = [
 // --- Messages Data ---
 
 export const MESSAGES_ROW_1: FriendMessage[] = [
-  { id: 'm1-1', name: 'Adam Shubh-asher', message: 'Happy Birthday! Wishing you a year filled with love and laughter. You deserve the world!' },
+  { id: 'm1-1', name: 'Shubhika', message: " Happy birthday Shreya, thanks for being the most supportive, loving and caring person I know. May you get all that you wish for and continue being the ray of sunshine you are. You’re quite honestly the only person I truly trust to understand me at times and it means a lot to me. Thanks for being there for me always, and I hope I can always be there for you. You’re my hidden gem from first sem and the Stacy to my Candace. Ilysm, may you have a blessed year ahead mosfet 💞" },
   { id: 'm1-2', name: 'Arun', message: "It's a privilege to have spent the past year as your friend, and I can't thank you enough for everything you've done. Enjoy your day and here's to 19, to concerts and so much more. Cheers gng!!!" },
-  { id: 'm1-3', name: 'Samarth Undercurrents Big Man Tings Ya', message: 'So grateful for your friendship. Have the most amazing day, Shreya!' },
+  { id: 'm1-3', name: 'Samarth', message: "🎂 and 🕯️lil bro 🥀" },
 ];
 
 export const MESSAGES_ROW_2: FriendMessage[] = [
-  { id: 'm2-1', name: 'Adi', message: 'Keep shining bright like the star you are. Happy Birthday bestie!' },
-  { id: 'm2-2', name: 'Abhyudaya', message: 'Another year older, another year wiser. Have a blast!' },
-  { id: 'm2-3', name: 'Shashank', message: 'For me, simpI love doing tech related stuff, whether it be making CTFs or working with AI models. Troubleshooting however is my jam, maybe it is something inherent but I just love coming across obscure problems and learning how to solve them(if only I did that for the ISAs). I do have the issue of overcommitting into solving stuff, realizing am practically a nocturnal being due to sleep schedule, and often spend my nights reminiscing on what could have been, or just trying to meet insane deadlines I set for myself. I have no idea how it works, and learning about it to finally fix it(all in one night)  le pleasures in life include my code working on the first try and a pillow that is cold on both sides. I watch a lot of sports, mainly football, F1 and MotoGP. I have been a Bayern Munich fan for as long as I can remember.' },
-];
+  { id: 'm2-1', name: 'Adi', message: "happy b'day my 5'1 non-chalant black king 👑" },
+  { id: 'm2-2', name: 'Abhyudaya', message: "Happy birthday lil bro. Your one the most nonchalant people I've met🥀. May all your wishes and dreams come true. check your beans before u eat em next time" },
+  { id: 'm2-3', name: 'Shraddha', message: "HAPPY BIRTHDAY SHREYA U GOAT everytime u don’t show up ik i can’t do ece wo u, heavy meets for esa lowk was the only reason i could pull through ily have an awesome 19th"}];
 
 export const MESSAGES_ROW_3: FriendMessage[] = [
-  { id: 'm3-1', name: 'Deepi', message: 'May all your dreams come true this year. You are an inspiration!' },
-  { id: 'm3-2', name: 'Ganavai', message: 'Sending you good vibes and lots of cake on your special day.' },
-  { id: 'm3-3', name: 'Ruhika', message: 'Thank you for always being there. Happy Birthday, beautiful!' },
-];
-
-export const MESSAGES_ROW_4: FriendMessage[] = [
-  { id: 'm4-1', name: 'DR', message: 'Hope your day is as amazing as you are. Party hard!' },
-  { id: 'm4-2', name: 'Swara', message: 'Wishing you endless joy and success. Happy Birthday Shreya!' },
-  { id: 'm4-3', name: 'Patil', message: 'Here is to another year of laughing at our own jokes. HBD!' },
-];
-
-export const MESSAGES_ROW_5: FriendMessage[] = [
-  { id: 'm5-1', name: 'Shreya ke papa', message: 'Stay fabulous and fearless. Have a wonderful birthday!' },
-  { id: 'm5-2', name: 'Shreyas mom', message: 'Can’t wait to celebrate with you. Happy Birthday!' },
-  { id: 'm5-3', name: 'Shreyas sis', message: 'Lots of love and hugs on your special day. Miss you!' },
+  { id: 'm3-1', name: 'Deepi', message: "Happyyyy birthdayyyy sweetieee 🎉🥳  You’re such a beautiful person ,inside and out .You’ve been there for me through so much, always showed up. The memories we’ve made are irreplaceable🥹You’re an incredibleeee person and I’m so lucky to have you in my life😭🫶I love you so muchhhh and have an amazing year❤️" },
+  { id: 'm3-2', name: 'Ganavai', message: "Happy Birthday Shreyaaa 🖤 One thing I love about you: how ur always there for the people who need u & being such a supportive friend Funniest moment this year: u cutting ur bangs on call I cherish you because:  ur one of a kind n the aww to my awwtysm" },
+  { id: 'm3-3', name: 'Ruhika', message: "hi shreyaa! happiest birthday idiot! i still remember the first time we actually bonded was for the fact that we both had louis tomlinson hoodies and we both loved one direction. I am so glad that we both did love them so much because it made us get along so well , we got to see freaking louis together, go to Mumbai have fun and do all crazy shit together. God only knows how I would have survived college without you. I love all the shit we do , all our gmeets trying our best to study and not talk ahaha, shopping and everything.I literally love doing everything with you. I am so glad to have found you in college. And don't stress out this sem will go fine and all will be perfect for now just focus on your birthday, it's your special day, have fun todayy and enjoy it soooo muchhhh and forget about the rest. I love you soo much!"},
 ];
 
 
@@ -87,4 +75,4 @@ export const COLORS = {
   gold: '#D4AF37',       // Custom gold hex
 };
 
-export const SURPRISE_VIDEO_URL = "/videos/haik.mp4";
+

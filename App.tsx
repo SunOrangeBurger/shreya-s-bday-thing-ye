@@ -7,9 +7,12 @@ import VideoSurprise from './components/VideoSurprise';
 import MessageRow from './components/MessageRow';
 import InteractiveBackground from './components/InteractiveBackground';
 
+import LocalVideoSurprise from './components/localvideo';
+
+
 import { 
   MEMORIES_ROW_1, MEMORIES_ROW_2, MEMORIES_ROW_3, MEMORIES_ROW_4, MEMORIES_ROW_5,
-  MESSAGES_ROW_1, MESSAGES_ROW_2, MESSAGES_ROW_3, MESSAGES_ROW_4, MESSAGES_ROW_5
+  MESSAGES_ROW_1, MESSAGES_ROW_2, MESSAGES_ROW_3
 } from './constants';
 
 const App: React.FC = () => {
@@ -119,19 +122,8 @@ const App: React.FC = () => {
         <FilmReel images={MEMORIES_ROW_4} direction="right" speed="slow" />
       </section>
 
-      <MessageRow messages={MESSAGES_ROW_4} title="Cheers to You" />
 
 
-      {/* --- CHAPTER 5 --- */}
-      <section className="py-12 relative z-10 bg-[#7F1D1D] text-white mt-12">
-         <div className="max-w-7xl mx-auto px-6 mb-8 text-center">
-           <h3 className="font-['Playfair_Display'] text-[#D4AF37] text-2xl italic">The Best Is Yet To Come</h3>
-        </div>
-        <FilmReel images={MEMORIES_ROW_5} direction="left" speed="normal" />
-        <div className="absolute bottom-[-20px] left-0 w-full h-6 bg-gradient-to-t from-[#FDF2F8] to-[#7F1D1D]"></div>
-      </section>
-
-      <MessageRow messages={MESSAGES_ROW_5} title="Final Wishes" />
 
 
       {/* Final Surprise Section */}
@@ -164,6 +156,28 @@ const App: React.FC = () => {
           </div>
         </motion.div>
       </section>
+      {/* Of Course We Couldn't Forget Section */}
+      <section className="py-32 px-6 relative z-10 bg-[#1A1A1A] text-white">
+        <div className="max-w-4xl mx-auto text-center">
+          <motion.div
+            initial={{ opacity: 0, y: 40 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, amount: 0.3 }}
+            transition={{ duration: 0.8 }}
+            className="mb-12"
+          >
+            <h2 className="font-['Playfair_Display'] text-4xl md:text-5xl text-[#D4AF37] mb-4">
+              Of course we couldn’t forget…
+            </h2>
+            <p className="text-lg text-white/70">
+              i think she deserves her own frame for this one.....
+            </p>
+          </motion.div>
+
+          <LocalVideoSurprise src="/videos/shreyasis.mp4" />
+        </div>
+      </section>
+
       
       <footer className="py-8 text-center text-[#064E3B]/40 text-sm relative z-10">
         <p>&copy; {new Date().getFullYear()} Celebrating Shreya</p>
