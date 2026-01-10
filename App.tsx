@@ -11,7 +11,7 @@ import LocalVideoSurprise from './components/localvideo';
 
 
 import { 
-  MEMORIES_ROW_1, MEMORIES_ROW_2, MEMORIES_ROW_3, MEMORIES_ROW_4, MEMORIES_ROW_5,
+  MEMORIES_ROW_1, MEMORIES_ROW_2, MEMORIES_ROW_3, MEMORIES_ROW_4,
   MESSAGES_ROW_1, MESSAGES_ROW_2, MESSAGES_ROW_3
 } from './constants';
 
@@ -47,7 +47,7 @@ const App: React.FC = () => {
           </h1>
           <div className="w-24 h-1 bg-[#7F1D1D] mx-auto mb-6 rounded-full"></div>
           <p className="text-xl md:text-2xl text-[#064E3B]/80 font-light max-w-lg mx-auto">
-            A cinematic journey through your beautiful moments.
+            start scrolling pls.
           </p>
         </motion.div>
         
@@ -56,7 +56,7 @@ const App: React.FC = () => {
           animate={{ y: [0, 10, 0] }}
           transition={{ repeat: Infinity, duration: 2 }}
         >
-          <span className="text-sm uppercase tracking-widest mb-2">Scroll to Begin</span>
+          <span className="text-sm uppercase tracking-widest mb-2">just keep scrolling, scrolling, scrolling.....</span>
           <div className="w-[1px] h-12 bg-gradient-to-b from-[#7F1D1D] to-transparent"></div>
         </motion.div>
       </motion.section>
@@ -71,10 +71,10 @@ const App: React.FC = () => {
             transition={{ duration: 0.8 }}
           >
             <h2 className="font-['Playfair_Display'] text-4xl text-[#7F1D1D] mb-8">
-              A Story in Frames
+              I thought this would be cool lol
             </h2>
             <p className="text-lg text-[#064E3B] leading-relaxed mb-8">
-              To the girl who lights up every room she enters. Here are the chapters of your amazing life so far, accompanied by words from those who love you most.
+              To the absolute peak of ~non~ chalance.
             </p>
           </motion.div>
         </div>
@@ -84,40 +84,40 @@ const App: React.FC = () => {
       <section className="py-12 relative z-10 bg-[#1A1A1A] text-white">
         <div className="absolute top-[-20px] left-0 w-full h-6 bg-gradient-to-b from-[#FDF2F8] to-[#1A1A1A]"></div>
         <div className="max-w-7xl mx-auto px-6 mb-8 text-center">
-           <h3 className="font-['Playfair_Display'] text-[#D4AF37] text-2xl italic">idk what to put here im workshopping how do we segment this</h3>
+           <h3 className="font-['Playfair_Display'] text-[#D4AF37] text-2xl italic">a short view back to the past</h3>
         </div>
         <FilmReel images={MEMORIES_ROW_1} direction="left" speed="slow" />
       </section>
       
-      <MessageRow messages={MESSAGES_ROW_1} title="Sendable text messages" />
+      <MessageRow messages={MESSAGES_ROW_1} title="Stuff words can describe" />
 
 
       {/* --- CHAPTER 2 --- */}
       <section className="py-12 relative z-10 bg-[#7F1D1D] text-white mt-12">
         <div className="max-w-7xl mx-auto px-6 mb-8 text-center">
-           <h3 className="font-['Playfair_Display'] text-[#FDF2F8] text-2xl italic">Unforgettable Adventures but forgettable caption i wanted an inside joke here</h3>
+           <h3 className="font-['Playfair_Display'] text-[#FDF2F8] text-2xl italic">i heard somewhere that photos were a view back into time itself</h3>
         </div>
         <FilmReel images={MEMORIES_ROW_2} direction="right" speed="normal" />
       </section>
 
-      <MessageRow messages={MESSAGES_ROW_2} title="Friends Forever" />
+      <MessageRow messages={MESSAGES_ROW_2} title="we have a lot to say apparently" />
 
 
       {/* --- CHAPTER 3 --- */}
       <section className="py-12 relative z-10 bg-[#064E3B] text-white mt-12">
         <div className="max-w-7xl mx-auto px-6 mb-8 text-center">
-           <h3 className="font-['Playfair_Display'] text-[#D4AF37] text-2xl italic">Growing & Glowing</h3>
+           <h3 className="font-['Playfair_Display'] text-[#D4AF37] text-2xl italic">Time freezes for pictures</h3>
         </div>
         <FilmReel images={MEMORIES_ROW_3} direction="left" speed="fast" />
       </section>
 
-      <MessageRow messages={MESSAGES_ROW_3} title="Love & Laughter" />
+      <MessageRow messages={MESSAGES_ROW_3} title="we still have a lot to say" />
 
 
       {/* --- CHAPTER 4 --- */}
       <section className="py-12 relative z-10 bg-[#1A1A1A] text-white mt-12">
         <div className="max-w-7xl mx-auto px-6 mb-8 text-center">
-           <h3 className="font-['Playfair_Display'] text-[#FDF2F8] text-2xl italic">Milestones</h3>
+           <h3 className="font-['Playfair_Display'] text-[#FDF2F8] text-2xl italic">We keep this love in a photograph</h3>
         </div>
         <FilmReel images={MEMORIES_ROW_4} direction="right" speed="slow" />
       </section>
@@ -137,10 +137,10 @@ const App: React.FC = () => {
         >
           <div className="mb-12">
             <h2 className="font-['Playfair_Display'] text-5xl md:text-6xl text-[#7F1D1D] mb-4">
-              One Last Surprise...
+              okay last thing i promise...
             </h2>
             <p className="text-[#064E3B] text-lg">
-              A little video to wrap up the celebration.
+              please unmute the video. thanks!!
             </p>
           </div>
           
@@ -148,10 +148,10 @@ const App: React.FC = () => {
           
           <div className="mt-16 space-y-4">
              <p className="font-['Playfair_Display'] text-3xl text-[#D4AF37] font-bold">
-               Happy Birthday Shreya!
+               Happy Birthday Shreyaaaaaaaaaa!!!!!!!!!!!!!!!!!!!!!!!!
              </p>
              <p className="text-[#064E3B]/60 text-sm">
-               Here's to a year as wonderful as you are.
+               Here's to a nonch 2026.
              </p>
           </div>
         </motion.div>
@@ -180,7 +180,7 @@ const App: React.FC = () => {
 
       
       <footer className="py-8 text-center text-[#064E3B]/40 text-sm relative z-10">
-        <p>&copy; {new Date().getFullYear()} Celebrating Shreya</p>
+        <p>&copy; {new Date().getFullYear()} hi</p>
       </footer>
 
     </div>

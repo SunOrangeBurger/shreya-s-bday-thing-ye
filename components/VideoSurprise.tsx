@@ -1,6 +1,5 @@
 import React, { useRef, useEffect, useState } from 'react';
 
-const YOUTUBE_VIDEO_ID = 'PASTE_YOUR_VIDEO_ID_HERE';
 
 const VideoSurprise: React.FC = () => {
   const containerRef = useRef<HTMLDivElement>(null);
@@ -32,7 +31,7 @@ const VideoSurprise: React.FC = () => {
       {shouldLoad ? (
         <iframe
           className="w-full h-full"
-          src={`https://www.youtube.com/embed/3HKwijVj3Yg?autoplay=1&mute=1&controls=1&rel=0&modestbranding=1`}
+          src={`https://www.youtube.com/embed/5wd8LgbjPPY?autoplay=0&mute=0&controls=1&rel=0&modestbranding=1`}
           title="Birthday Surprise Video"
           frameBorder="0"
           allow="autoplay; encrypted-media; picture-in-picture"

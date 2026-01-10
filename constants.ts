@@ -39,15 +39,6 @@ export const MEMORIES_ROW_4: MemoryImage[] = [
   { id: '4-7', url: '/images/20250520_174046.jpg', caption: 'holy shi its a relic sbka still has blue hair' },
 ];
 
-export const MEMORIES_ROW_5: MemoryImage[] = [
-  { id: '5-1', url: 'https://picsum.photos/400/600?random=25', caption: 'Wedding Fun' },
-  { id: '5-2', url: 'https://picsum.photos/400/600?random=26', caption: 'Dancing' },
-  { id: '5-3', url: 'https://picsum.photos/400/600?random=27', caption: 'Outfits' },
-  { id: '5-4', url: 'https://picsum.photos/400/600?random=28', caption: 'Glamour' },
-  { id: '5-5', url: 'https://picsum.photos/400/600?random=29', caption: 'Sparkle' },
-  { id: '5-6', url: 'https://picsum.photos/400/600?random=30', caption: 'Love' },
-];
-
 // --- Messages Data ---
 
 export const MESSAGES_ROW_1: FriendMessage[] = [
@@ -62,8 +53,8 @@ export const MESSAGES_ROW_2: FriendMessage[] = [
   { id: 'm2-3', name: 'Shraddha', message: "HAPPY BIRTHDAY SHREYA U GOAT everytime u don’t show up ik i can’t do ece wo u, heavy meets for esa lowk was the only reason i could pull through ily have an awesome 19th"}];
 
 export const MESSAGES_ROW_3: FriendMessage[] = [
-  { id: 'm3-1', name: 'Deepi', message: "Happyyyy birthdayyyy sweetieee 🎉🥳  You’re such a beautiful person ,inside and out .You’ve been there for me through so much, always showed up. The memories we’ve made are irreplaceable🥹You’re an incredibleeee person and I’m so lucky to have you in my life😭🫶I love you so muchhhh and have an amazing year❤️" },
-  { id: 'm3-2', name: 'Ganavai', message: "Happy Birthday Shreyaaa 🖤 One thing I love about you: how ur always there for the people who need u & being such a supportive friend Funniest moment this year: u cutting ur bangs on call I cherish you because:  ur one of a kind n the aww to my awwtysm" },
+  { id: 'm3-1', name: 'Deepti', message: "Happyyyy birthdayyyy sweetieee 🎉🥳  You’re such a beautiful person ,inside and out .You’ve been there for me through so much, always showed up. The memories we’ve made are irreplaceable🥹You’re an incredibleeee person and I’m so lucky to have you in my life😭🫶I love you so muchhhh and have an amazing year❤️" },
+  { id: 'm3-2', name: 'Ganavi', message: "Happy Birthday Shreyaaa 🖤 One thing I love about you: how ur always there for the people who need u & being such a supportive friend Funniest moment this year: u cutting ur bangs on call I cherish you because:  ur one of a kind n the aww to my awwtysm" },
   { id: 'm3-3', name: 'Ruhika', message: "hi shreyaa! happiest birthday idiot! i still remember the first time we actually bonded was for the fact that we both had louis tomlinson hoodies and we both loved one direction. I am so glad that we both did love them so much because it made us get along so well , we got to see freaking louis together, go to Mumbai have fun and do all crazy shit together. God only knows how I would have survived college without you. I love all the shit we do , all our gmeets trying our best to study and not talk ahaha, shopping and everything.I literally love doing everything with you. I am so glad to have found you in college. And don't stress out this sem will go fine and all will be perfect for now just focus on your birthday, it's your special day, have fun todayy and enjoy it soooo muchhhh and forget about the rest. I love you soo much!"},
 ];
 
